@@ -1,0 +1,17 @@
+{
+	"name": "cooku-back-end",
+	"version": "1.0.0",
+	"description": "React JS boilerplate made with ❤",
+	"main": "index.js",
+	"scripts": {
+		"server": "nodemon server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.9.12",
+		"nodemon": "^2.0.3"
+	}
+}
