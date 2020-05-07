@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
 
 app.use('/api/registerUser', require('./route/user'));
 
-const port = process.env.Port || 3000;
+const port = process.env.PORT || 3000;
 console.log('port: ', port);
 app.listen(port, () => console.log('Server Listening...'));
