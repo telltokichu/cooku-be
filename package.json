@@ -1,13 +1,14 @@
 {
 	"name": "cooku-back-end",
 	"version": "1.0.0",
-	"description": "React JS boilerplate made with ❤",
+	"description": "node js boilerplate made with ❤",
 	"main": "index.js",
 	"scripts": {
+		"start": "node .",
 		"server": "nodemon server.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "kishore, aishwarya",
 	"license": "ISC",
 	"dependencies": {
 		"express": "^4.17.1",
