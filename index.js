@@ -7,7 +7,7 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => {
-	res.send('Welcome to Mediguru Telehealth API');
+	res.send('Cooku Welcome You !');
 });
 
 app.use('/api/registerUser', require('./route/user'));
