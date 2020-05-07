@@ -7,11 +7,11 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => {
-	res.send('Welcome to Mediguru Telehealth API');
+	res.send('Cooku Welcome You !');
 });
 
 app.use('/api/registerUser', require('./route/user'));
 
-const port = process.env.Port || 3000;
+const port = process.env.PORT || 3000;
 console.log('port: ', port);
 app.listen(port, () => console.log('Server Listening...'));
