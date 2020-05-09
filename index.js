@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/registerUser', require('./route/user'));
+app.use('/api/addRecipe', require('./route/recipe'));
 
 const port = process.env.PORT || 3000;
 console.log('port: ', port);
